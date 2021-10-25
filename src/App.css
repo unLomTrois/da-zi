@@ -14,8 +14,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #333333;
   min-height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,6 +28,25 @@
 .App-link {
   color: #61dafb;
 }
+
+.chinese-input {
+  background-color:rgba(0, 0, 0, 0);
+  color:white;
+  border: none;
+  outline:none;
+  height: 256px;
+  font-size: 256px;
+  width: 95vw;
+  text-align: center;
+  font-family: serif, HanaMinB, HanaMinA, "BabelStone Han", "华文细黑", "Noto Serif CJK SC", "Noto Serif CJK TC", "Noto Sans CJK SC", "Noto Sans CJK TC", STXihei, STHeiti, SimSun, PMingLiU, SimHei, "Arial Unicode MS", "TITUS Cyberbit Basic", "Bitstream Cyberbit";
+  /* transition:height 1s;
+  -webkit-transition:height 1s; */
+}
+
+/* .chinese-input:focus {
+  height:50px;
+  font-size:16px;
+} */
 
 @keyframes App-logo-spin {
   from {
